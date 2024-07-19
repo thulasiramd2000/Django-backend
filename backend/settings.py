@@ -61,15 +61,16 @@ WSGI_APPLICATION = "backend.wsgi.application"
 
 # Database
 DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.postgresql",
-        "NAME": os.getenv('DB_NAME', 'your_db_name'),
-        "USER": os.getenv('DB_USER', 'your_db_user'),
-        "PASSWORD": os.getenv('DB_PASSWORD', 'your_db_password'),
-        "HOST": os.getenv('DB_HOST', 'localhost'),
-        "PORT": os.getenv('DB_PORT', '5432'),
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'backend',
+        'USER': 'thulasiramd2000',
+        'PASSWORD': 'Ram2125$',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
 }
+
 
 # Password validation
 AUTH_PASSWORD_VALIDATORS = [
